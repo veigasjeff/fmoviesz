@@ -35,7 +35,7 @@ function Application({ Component, pageProps }) {
 
   return (
     <div className="center">
-      <GoogleAnalytics measurementId="G-65SVDZN562" />
+      <GoogleAnalytics measurementId="G-KD5XQRYZN5" />
   
       
       <PageTransition>
