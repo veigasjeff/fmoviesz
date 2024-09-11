@@ -155,8 +155,7 @@ const page1 = ({ items }) => {
         />
       <meta
           name='keywords'
-          content=' '
-        />
+          content="fmovies, fmovieswatch, fmovies free, fmovies apk, fmovies hd, fmovies id, fmovies rs, fmovies movies, official fmovies, fmovies free, free movies, movies online, watch movies online, watch movies free, 123movies, fmovies, putlocker, putlockers, hdtoday" />
         <meta
           property='og:image'
           content='http://localhost:3000/og_image.jpg'

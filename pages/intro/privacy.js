@@ -203,8 +203,7 @@ const Privacy = () => {
           />
          <meta
           name='keywords'
-          content=''
-        />
+          content="fmovies, fmovieswatch, fmovies free, fmovies apk, fmovies hd, fmovies id, fmovies rs, fmovies movies, official fmovies, fmovies free, free movies, movies online, watch movies online, watch movies free, 123movies, fmovies, putlocker, putlockers, hdtoday" />
           <meta
           property='description'
           content='FMOVIES™ - Stream HD movies and TV series for free on FMOVIES Online. Online. Stream. Download. full-length movies and shows in HD quality without registration.'
