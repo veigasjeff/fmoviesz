@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'http://localhost:3000/',
+  siteUrl: 'https://fmoviesz.vercel.app/',
   changefreq: 'daily',
   sitemapSize: 7000, // Limit of URLs in each sitemap file
   // generateRobotsTxt: true, // Optionally generate robots.txt
