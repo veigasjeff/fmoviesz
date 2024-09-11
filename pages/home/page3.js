@@ -44,11 +44,11 @@ const page3 = ({ items }) => {
       '@context': 'https://schema.org',
       '@type': 'Organization',
       name: 'FMOVIES™ - Online. Stream. Download.',
-      url: 'http://localhost:3000/',
-      image: ['http://localhost:3000/favicon.ico'],
+      url: 'https://fmoviesz.vercel.app/',
+      image: ['https://fmoviesz.vercel.app/favicon.ico'],
       logo: {
         '@type': 'ImageObject',
-        url: 'http://localhost:3000/logo.png',
+        url: 'https://fmoviesz.vercel.app/logo.png',
         width: 280,
         height: 80
       }
@@ -56,12 +56,12 @@ const page3 = ({ items }) => {
     {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
-      url: 'http://localhost:3000/',
+      url: 'https://fmoviesz.vercel.app/',
       potentialAction: {
         '@type': 'SearchAction',
         target: {
           '@type': 'EntryPoint',
-          urlTemplate: 'http://localhost:3000/search?q={search_term_string}'
+          urlTemplate: 'https://fmoviesz.vercel.app/search?q={search_term_string}'
         },
         'query-input': 'required name=search_term_string'
       }
@@ -71,12 +71,12 @@ const page3 = ({ items }) => {
   const softwareSchema = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'Article',
-    '@id': 'http://localhost:3000/page3',
+    '@id': 'https://fmoviesz.vercel.app/page3',
     headline: 'Page 3 | FMOVIES™',
-    url: 'http://localhost:3000/page3',
+    url: 'https://fmoviesz.vercel.app/page3',
     description:
       'FMOVIES™ - Stream HD movies and TV series for free on FMOVIES™ Online. Online. Stream. Download. full-length movies and shows in HD quality without registration.',
-    image: 'http://localhost:3000/og_image.jpg',
+    image: 'https://fmoviesz.vercel.app/og_image.jpg',
     author: {
       '@type': 'Person',
       name: 'DrTrailer',
@@ -87,14 +87,14 @@ const page3 = ({ items }) => {
       name: 'FMOVIES™ - Online. Stream. Download.',
       logo: {
         '@type': 'ImageObject',
-        url: 'http://localhost:3000/og_image.jpg'
+        url: 'https://fmoviesz.vercel.app/og_image.jpg'
       }
     },
     datePublished: '2024-06-02',
     dateModified: '2024-06-02',
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': 'http://localhost:3000/page3'
+      '@id': 'https://fmoviesz.vercel.app/page3'
     },
     additionalProperty: {
       '@type': 'PropertyValue',
@@ -111,13 +111,13 @@ const page3 = ({ items }) => {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'http://localhost:3000/'
+        item: 'https://fmoviesz.vercel.app/'
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'movies',
-        item: 'http://localhost:3000/page3'
+        item: 'https://fmoviesz.vercel.app/page3'
       }
     ]
   })
@@ -126,7 +126,7 @@ const page3 = ({ items }) => {
     <div className='w-full' style={{ backgroundColor: '#000' }}>
       <Head>
         <title> Page 3 | FMOVIES™</title>
-        <link rel='canonical' href='http://localhost:3000/page3' />
+        <link rel='canonical' href='https://fmoviesz.vercel.app/page3' />
         <meta
           name='robots'
           content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
@@ -142,13 +142,13 @@ const page3 = ({ items }) => {
           content='FMOVIES™ - Stream HD movies and TV series for free on FMOVIES™ Online. Online. Stream. Download. full-length movies and shows in HD quality without registration.'
         />
 
-        <meta property='og:url' content='http://localhost:3000/page3' />
+        <meta property='og:url' content='https://fmoviesz.vercel.app/page3' />
 
         <meta property='og:site_name' content='FMOVIES™' />
         <meta property='og:type' content='article' />
         <meta
           property=' og:image:alt'
-          content='http://localhost:3000/og_image.jpg'
+          content='https://fmoviesz.vercel.app/og_image.jpg'
         />
         <meta name='mobile-web-app-capable' content='yes' />
         <meta property='article:section' content='FMOVIES™' />
@@ -162,7 +162,7 @@ const page3 = ({ items }) => {
           content="fmovies, fmovieswatch, fmovies free, fmovies apk, fmovies hd, fmovies id, fmovies rs, fmovies movies, official fmovies, fmovies free, free movies, movies online, watch movies online, watch movies free, 123movies, fmovies, putlocker, putlockers, hdtoday" />
         <meta
           property='og:image'
-          content='http://localhost:3000/og_image.jpg'
+          content='https://fmoviesz.vercel.app/og_image.jpg'
         />
         <meta property='og:image:width' content='1280px' />
         <meta property='og:image:height' content='720px' />
@@ -172,7 +172,7 @@ const page3 = ({ items }) => {
         <meta name='twitter:data1' content='1 minute' />
         <meta
           name='google-site-verification'
-          content='ZZZZZZZZZZ-ZZZZZZZZZZ'
+          content='WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg-WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg'
         />
         <meta
           name='facebook-domain-verification'
@@ -442,7 +442,7 @@ const page3 = ({ items }) => {
 
 export async function getStaticProps() {
   try {
-    const res = await fetch('http://localhost:3000/moviesp10.json');
+    const res = await fetch('https://fmoviesz.vercel.app/moviesp10.json');
     const data = await res.json();
 
     return {

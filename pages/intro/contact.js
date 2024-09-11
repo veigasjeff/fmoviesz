@@ -22,29 +22,29 @@ const contact = () => {
       },
       {
         '@type': 'Organization',
-        '@id': 'http://localhost:3000/#organization',
+        '@id': 'https://fmoviesz.vercel.app/#organization',
         name: 'FMOVIES™ - Online. Stream. Download.',
-        url: 'http://localhost:3000'
+        url: 'https://fmoviesz.vercel.app'
       },
       {
         '@type': 'WebSite',
-        '@id': 'http://localhost:3000/#website',
-        url: 'http://localhost:3000',
+        '@id': 'https://fmoviesz.vercel.app/#website',
+        url: 'https://fmoviesz.vercel.app',
         name: 'FMOVIES™ - Online. Stream. Download.',
         publisher: {
           '@type': 'Organization',
-          '@id': 'http://localhost:3000/#organization'
+          '@id': 'https://fmoviesz.vercel.app/#organization'
         },
         potentialAction: {
           '@type': 'SearchAction',
-          target: 'http://localhost:3000/?s={search_term_string}',
+          target: 'https://fmoviesz.vercel.app/?s={search_term_string}',
           'query-input': 'required name=search_term_string'
         }
       },
       {
         '@type': 'WebPage',
-        '@id': 'http://localhost:3000/#webpage',
-        url: 'http://localhost:3000/',
+        '@id': 'https://fmoviesz.vercel.app/#webpage',
+        url: 'https://fmoviesz.vercel.app/',
         name: 'Movie',
         datePublished: '2024-01-13T13:00:00+00:00',
         dateModified: '2024-01-13T13:13:00+00:00',
@@ -62,14 +62,14 @@ const contact = () => {
           }
         },
         isPartOf: {
-          '@id': 'http://localhost:3000/#website'
+          '@id': 'https://fmoviesz.vercel.app/#website'
         },
         inLanguage: 'en-US',
         mainEntity: [
           {
             '@type': 'Article',
-            '@id': 'http://localhost:3000/',
-            url: 'http://localhost:3000/',
+            '@id': 'https://fmoviesz.vercel.app/',
+            url: 'https://fmoviesz.vercel.app/',
             headline: 'Movie',
             datePublished: '2024-01-13T13:00:00+00:00',
             dateModified: '2024-01-13T13:13:00+00:00',
@@ -88,15 +88,15 @@ const contact = () => {
             },
             publisher: {
               '@type': 'Organization',
-              '@id': 'http://localhost:3000/#organization',
+              '@id': 'https://fmoviesz.vercel.app/#organization',
               name: 'FMOVIES™ - Online. Stream. Download.',
-              url: 'http://localhost:3000'
+              url: 'https://fmoviesz.vercel.app'
             }
           },
           {
             '@type': 'Article',
-            '@id': 'http://localhost:3000/',
-            url: 'http://localhost:3000/',
+            '@id': 'https://fmoviesz.vercel.app/',
+            url: 'https://fmoviesz.vercel.app/',
             headline: 'Tvshow',
             datePublished: '2024-01-13T13:00:00+00:00',
             dateModified: '2024-01-13T13:13:00+00:00',
@@ -115,15 +115,15 @@ const contact = () => {
             },
             publisher: {
               '@type': 'Organization',
-              '@id': 'http://localhost:3000/#organization',
+              '@id': 'https://fmoviesz.vercel.app/#organization',
               name: 'FMOVIES™ - Online. Stream. Download.',
-              url: 'http://localhost:3000'
+              url: 'https://fmoviesz.vercel.app'
             }
           },
           {
             '@type': 'Article',
-            '@id': 'http://localhost:3000/',
-            url: 'http://localhost:3000/',
+            '@id': 'https://fmoviesz.vercel.app/',
+            url: 'https://fmoviesz.vercel.app/',
             headline: 'Adult',
             datePublished: '2024-01-13T13:00:00+00:00',
             dateModified: '2024-01-13T13:13:00+00:00',
@@ -142,9 +142,9 @@ const contact = () => {
             },
             publisher: {
               '@type': 'Organization',
-              '@id': 'http://localhost:3000/#organization',
+              '@id': 'https://fmoviesz.vercel.app/#organization',
               name: 'FMOVIES™ - Online. Stream. Download.',
-              url: 'http://localhost:3000'
+              url: 'https://fmoviesz.vercel.app'
             }
           }
         ]
@@ -163,7 +163,7 @@ const contact = () => {
           rel='sitemap'
           type='application/xml'
           title='Sitemap'
-          href='http://localhost:3000/sitemap.xml'
+          href='https://fmoviesz.vercel.app/sitemap.xml'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <link
@@ -205,7 +205,7 @@ const contact = () => {
 
         <link
           rel='canonical'
-          href='http://localhost:3000/intro/contact'
+          href='https://fmoviesz.vercel.app/intro/contact'
         />
         <meta property='og:locale' content='en_US' />
         <meta property='og:type' content='website' />
@@ -216,12 +216,12 @@ const contact = () => {
         />
         <meta
           property='og:url'
-          content='http://localhost:3000/intro/contact/'
+          content='https://fmoviesz.vercel.app/intro/contact/'
         />
         <meta property='og:site_name' content='FMOVIES™ ' />
         <meta
           property='og:image'
-          content='http://localhost:3000/og_image.jpg'
+          content='https://fmoviesz.vercel.app/og_image.jpg'
         />
         <meta property='og:image:width' content='1280' />
         <meta property='og:image:height' content='720' />
@@ -235,12 +235,12 @@ const contact = () => {
           rel='sitemap'
           type='application/xml'
           title='Sitemap'
-          href='http://localhost:3000/sitemap.xml'
+          href='https://fmoviesz.vercel.app/sitemap.xml'
         />
         <meta name='twitter:card' content='summary_large_image' />
         <meta
           name='google-site-verification'
-          content='ZZZZZZZZZZ'
+          content='WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg'
         />
         <meta
           name='facebook-domain-verification'

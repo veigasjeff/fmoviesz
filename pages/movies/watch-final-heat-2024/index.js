@@ -16,7 +16,7 @@ import styles from '@styles/iframeStyles.module.css'
 
 // Fetch data from movies.json
 const fetchmoviesData = async () => {
-  const response = await fetch('http://localhost:3000/moviesfull.json')
+  const response = await fetch('https://fmoviesz.vercel.app/moviesfull.json')
   return await response.json()
 }
 
@@ -109,7 +109,7 @@ const moviesDetail = ({ movie }) => {
   // Function to fetch data and set state
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:3000/moviesfull.json')
+      const response = await fetch('https://fmoviesz.vercel.app/moviesfull.json')
       const data = await response.json()
 
       // Get 6 random TV Series s
@@ -298,11 +298,11 @@ const moviesDetail = ({ movie }) => {
       '@context': 'https://schema.org',
       '@type': 'Organization',
       name: 'FMOVIES™',
-      url: 'http://localhost:3000/',
-      image: ['http://localhost:3000/favicon.ico'],
+      url: 'https://fmoviesz.vercel.app/',
+      image: ['https://fmoviesz.vercel.app/favicon.ico'],
       logo: {
         '@type': 'ImageObject',
-        url: 'http://localhost:3000/logo.png',
+        url: 'https://fmoviesz.vercel.app/logo.png',
         width: 280,
         height: 100
       }
@@ -310,12 +310,12 @@ const moviesDetail = ({ movie }) => {
     {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
-      url: 'http://localhost:3000/',
+      url: 'https://fmoviesz.vercel.app/',
       potentialAction: {
         '@type': 'SearchAction',
         target: {
           '@type': 'EntryPoint',
-          urlTemplate: 'http://localhost:3000/search?q={search_term_string}'
+          urlTemplate: 'https://fmoviesz.vercel.app/search?q={search_term_string}'
         },
         'query-input': 'required name=search_term_string'
       }
@@ -330,7 +330,7 @@ const moviesDetail = ({ movie }) => {
         '@type': 'ListItem',
         position: 1,
         name: 'FMOVIES™',
-        item: 'http://localhost:3000/'
+        item: 'https://fmoviesz.vercel.app/'
       },
       {
         '@type': 'ListItem',
@@ -357,8 +357,8 @@ const moviesDetail = ({ movie }) => {
       },
       {
         '@type': 'WebSite',
-        '@id': 'http://localhost:3000#website',
-        url: 'http://localhost:3000',
+        '@id': 'https://fmoviesz.vercel.app#website',
+        url: 'https://fmoviesz.vercel.app',
         name: 'FMOVIES™',
         publisher: {
           '@id': 'https://gravatar.com/drtrailer2022/#person'
@@ -373,7 +373,7 @@ const moviesDetail = ({ movie }) => {
         datePublished: movie.datePublished,
         dateModified: movie.dateModified,
         isPartOf: {
-          '@id': 'http://localhost:3000#website'
+          '@id': 'https://fmoviesz.vercel.app#website'
         },
         inLanguage: 'en-US'
       },
@@ -389,7 +389,7 @@ const moviesDetail = ({ movie }) => {
           caption: 'Dr Trailer',
           inLanguage: 'en-US'
         },
-        sameAs: ['http://localhost:3000']
+        sameAs: ['https://fmoviesz.vercel.app']
       },
       {
         '@type': 'Article',
@@ -474,7 +474,7 @@ const moviesDetail = ({ movie }) => {
       name: 'FMOVIES™',
       logo: {
         '@type': 'ImageObject',
-        url: 'http://localhost:3000/og_image.jpg'
+        url: 'https://fmoviesz.vercel.app/og_image.jpg'
       }
     },
     additionalProperty: {
@@ -535,7 +535,7 @@ const moviesDetail = ({ movie }) => {
       name: 'FMOVIES™',
       logo: {
         '@type': 'ImageObject',
-        url: 'http://localhost:3000/og_image.jpg'
+        url: 'https://fmoviesz.vercel.app/og_image.jpg'
       }
     },
     additionalProperty: {
@@ -621,7 +621,7 @@ const moviesDetail = ({ movie }) => {
         <meta name='twitter:data1' content='1 minute' />
         <meta
           name='google-site-verification'
-          content='ZZZZZZZZZZ-ZZZZZZZZZZ'
+          content='WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg-WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg'
         />
         <meta
           name='facebook-domain-verification'
@@ -1566,7 +1566,7 @@ const moviesDetail = ({ movie }) => {
 }
 
 export async function getServerSideProps () {
-  const res = await fetch('http://localhost:3000/moviesp8.json')
+  const res = await fetch('https://fmoviesz.vercel.app/moviesp8.json')
   const data = await res.json()
   const selectedMovie = data.find(
     movie => movie.id === 'watch-final-heat-2024'

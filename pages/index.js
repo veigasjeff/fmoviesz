@@ -8,11 +8,11 @@ export default function HomePage () {
       '@context': 'https://schema.org',
       '@type': 'Organization',
       name: 'FMOVIES™ - Online. Stream. Download. ',
-      url: 'http://localhost:3000/',
-      image: ['http://localhost:3000/favicon.ico'],
+      url: 'https://fmoviesz.vercel.app/',
+      image: ['https://fmoviesz.vercel.app/favicon.ico'],
       logo: {
         '@type': 'ImageObject',
-        url: 'http://localhost:3000/logo.png',
+        url: 'https://fmoviesz.vercel.app/logo.png',
         width: 280,
         height: 80
       }
@@ -20,12 +20,12 @@ export default function HomePage () {
     {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
-      url: 'http://localhost:3000/',
+      url: 'https://fmoviesz.vercel.app/',
       potentialAction: {
         '@type': 'SearchAction',
         target: {
           '@type': 'EntryPoint',
-          urlTemplate: 'http://localhost:3000/search?q={search_term_string}'
+          urlTemplate: 'https://fmoviesz.vercel.app/search?q={search_term_string}'
         },
         'query-input': 'required name=search_term_string'
       }
@@ -50,29 +50,29 @@ export default function HomePage () {
       },
       {
         '@type': 'Organization',
-        '@id': 'http://localhost:3000/#organization',
+        '@id': 'https://fmoviesz.vercel.app/#organization',
         name: 'FMOVIES™ - Online. Stream. Download. ',
-        url: 'http://localhost:3000'
+        url: 'https://fmoviesz.vercel.app'
       },
       {
         '@type': 'WebSite',
-        '@id': 'http://localhost:3000/#website',
-        url: 'http://localhost:3000',
+        '@id': 'https://fmoviesz.vercel.app/#website',
+        url: 'https://fmoviesz.vercel.app',
         name: 'FMOVIES™ - Online. Stream. Download. ',
         publisher: {
           '@type': 'Organization',
-          '@id': 'http://localhost:3000/#organization'
+          '@id': 'https://fmoviesz.vercel.app/#organization'
         },
         potentialAction: {
           '@type': 'SearchAction',
-          target: 'http://localhost:3000/?s={search_term_string}',
+          target: 'https://fmoviesz.vercel.app/?s={search_term_string}',
           'query-input': 'required name=search_term_string'
         }
       },
       {
         '@type': 'WebPage',
-        '@id': 'http://localhost:3000/#webpage',
-        url: 'http://localhost:3000/',
+        '@id': 'https://fmoviesz.vercel.app/#webpage',
+        url: 'https://fmoviesz.vercel.app/',
         name: 'Movie',
         datePublished: '2024-01-13T13:00:00+00:00',
         dateModified: '2024-01-13T13:13:00+00:00',
@@ -90,14 +90,14 @@ export default function HomePage () {
           }
         },
         isPartOf: {
-          '@id': 'http://localhost:3000/#website'
+          '@id': 'https://fmoviesz.vercel.app/#website'
         },
         inLanguage: 'en-US',
         mainEntity: [
           {
             '@type': 'Article',
-            '@id': 'http://localhost:3000/',
-            url: 'http://localhost:3000/',
+            '@id': 'https://fmoviesz.vercel.app/',
+            url: 'https://fmoviesz.vercel.app/',
             headline: 'FMOVIES™ - Online. Stream. Download. ',
             datePublished: '2024-01-13T13:00:00+00:00',
             dateModified: '2024-01-13T13:13:00+00:00',
@@ -116,15 +116,15 @@ export default function HomePage () {
             },
             publisher: {
               '@type': 'Organization',
-              '@id': 'http://localhost:3000/#organization',
+              '@id': 'https://fmoviesz.vercel.app/#organization',
               name: 'FMOVIES™ - Online. Stream. Download. ',
-              url: 'http://localhost:3000'
+              url: 'https://fmoviesz.vercel.app'
             }
           },
           {
             '@type': 'Article',
-            '@id': 'http://localhost:3000/',
-            url: 'http://localhost:3000/',
+            '@id': 'https://fmoviesz.vercel.app/',
+            url: 'https://fmoviesz.vercel.app/',
             headline: 'FMOVIES™ - Online. Stream. Download. ',
             datePublished: '2024-01-13T13:00:00+00:00',
             dateModified: '2024-01-13T13:13:00+00:00',
@@ -143,15 +143,15 @@ export default function HomePage () {
             },
             publisher: {
               '@type': 'Organization',
-              '@id': 'http://localhost:3000/#organization',
+              '@id': 'https://fmoviesz.vercel.app/#organization',
               name: 'FMOVIES™ - Online. Stream. Download. ',
-              url: 'http://localhost:3000'
+              url: 'https://fmoviesz.vercel.app'
             }
           },
           {
             '@type': 'Article',
-            '@id': 'http://localhost:3000/',
-            url: 'http://localhost:3000/',
+            '@id': 'https://fmoviesz.vercel.app/',
+            url: 'https://fmoviesz.vercel.app/',
             headline: 'FMOVIES™ - Online. Stream. Download. ',
             datePublished: '2024-01-13T13:00:00+00:00',
             dateModified: '2024-01-13T13:13:00+00:00',
@@ -177,7 +177,7 @@ export default function HomePage () {
   const languagesSchema = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    url: 'http://localhost:3000/',
+    url: 'https://fmoviesz.vercel.app/',
     name: 'FMOVIES™ - Online. Stream. Download.',
     alternateName: [
       'FMOVIES™ - Explorar. Transmitir. En línea.',
@@ -213,7 +213,7 @@ export default function HomePage () {
           rel='sitemap'
           type='application/xml'
           title='Sitemap'
-          href='http://localhost:3000/sitemap.xml'
+          href='https://fmoviesz.vercel.app/sitemap.xml'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <link rel='icon' type='image/x-icon' href='/favicon.ico' />
@@ -249,21 +249,21 @@ export default function HomePage () {
           name='description'
           content='Stream HD movies and TV series for free on FMOVIES. Online. Stream. Download. full-length movies and shows in HD quality without registration.'
         />
-        <link rel='canonical' href='http://localhost:3000/' />
+        <link rel='canonical' href='https://fmoviesz.vercel.app/' />
         <meta property='og:locale' content='en_US' />
         <meta property='og:type' content='website' />
         <meta
           property='og:title'
           content='FMOVIES™ - Online. Stream. Download. '
         />
-        <meta property='og:url' content='http://localhost:3000' />
+        <meta property='og:url' content='https://fmoviesz.vercel.app' />
         <meta
           property='og:site_name'
           content='FMOVIES™ - Online. Stream. Download. '
         />
         <meta
           property='og:image'
-          content='http://localhost:3000/og_image.jpg'
+          content='https://fmoviesz.vercel.app/og_image.jpg'
         />
         <meta property='og:image:width' content='1200' />
         <meta property='og:image:height' content='630' />
@@ -280,7 +280,7 @@ export default function HomePage () {
           rel='sitemap'
           type='application/xml'
           title='Sitemap'
-          href='http://localhost:3000/sitemap.xml'
+          href='https://fmoviesz.vercel.app/sitemap.xml'
         />
         <meta name='twitter:card' content='summary_large_image' />
         <meta
@@ -293,11 +293,11 @@ export default function HomePage () {
         />
         <meta
           name='twitter:image'
-          content='http://localhost:3000/og_image.jpg'
+          content='https://fmoviesz.vercel.app/og_image.jpg'
         />
         <meta
           name='google-site-verification'
-          content='ZZZZZZZZZZ'
+          content='WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg'
         />
 
         <meta
