@@ -244,10 +244,10 @@ export default function HomePage () {
         />
         <meta
           name='keywords'
-          content="fmovies, fmovieswatch, fmovies free, fmovies apk, fmovies hd, fmovies id, fmovies rs, fmovies movies, official fmovies, fmovies free, free movies, movies online, watch movies online, watch movies free, 123movies, fmovies, putlocker, putlockers, hdtoday" />
+          content="fmovies, fmovies.to, fmovies to, fmovies is, fmovie, free movies, online movie, movie online, free movies online, watch movies online free, free hd movies, watch movies online" />
         <meta
           name='description'
-          content='fmovies, fmovieswatch, fmovies free, fmovies apk, fmovies hd, fmovies id, fmovies rs, fmovies movies, official fmovies, fmovies free, free movies, movies online, watch movies online, watch movies free, 123movies, fmovies, putlocker, putlockers, hdtoday'
+           content='Stream HD movies and TV series for free on FMOVIES™. Online. Stream. Download. full-length movies and shows in HD quality without registration.'
         />
         <link rel='canonical' href='https://fmoviesz.vercel.app/' />
         <meta property='og:locale' content='en_US' />
@@ -289,7 +289,7 @@ export default function HomePage () {
         />
         <meta
           name='twitter:description'
-          content='fmovies, fmovieswatch, fmovies free, fmovies apk, fmovies hd, fmovies id, fmovies rs, fmovies movies, official fmovies, fmovies free, free movies, movies online, watch movies online, watch movies free, 123movies, fmovies, putlocker, putlockers, hdtoday'
+           content='Stream HD movies and TV series for free on FMOVIES™. Online. Stream. Download. full-length movies and shows in HD quality without registration.'
         />
         <meta
           name='twitter:image'

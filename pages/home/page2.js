@@ -161,7 +161,7 @@ const page2 = ({ items }) => {
         />
       <meta
           name='keywords'
-          content="fmovies, fmovieswatch, fmovies free, fmovies apk, fmovies hd, fmovies id, fmovies rs, fmovies movies, official fmovies, fmovies free, free movies, movies online, watch movies online, watch movies free, 123movies, fmovies, putlocker, putlockers, hdtoday" />
+          content="fmovies, fmovies.to, fmovies to, fmovies is, fmovie, free movies, online movie, movie online, free movies online, watch movies online free, free hd movies, watch movies online" />
         <meta
           property='og:image'
           content='https://fmoviesz.vercel.app/og_image.jpg'
