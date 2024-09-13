@@ -297,7 +297,7 @@ const moviesDetail = ({ movie }) => {
     {
       '@context': 'https://schema.org',
       '@type': 'Organization',
-      name: 'FMOVIES™',
+      name: 'FMovies™',
       url: 'https://fmoviesz.vercel.app/',
       image: ['https://fmoviesz.vercel.app/favicon.ico'],
       logo: {
@@ -329,7 +329,7 @@ const moviesDetail = ({ movie }) => {
       {
         '@type': 'ListItem',
         position: 1,
-        name: 'FMOVIES™',
+        name: 'FMovies™',
         item: 'https://fmoviesz.vercel.app/'
       },
       {
@@ -359,7 +359,7 @@ const moviesDetail = ({ movie }) => {
         '@type': 'WebSite',
         '@id': 'https://fmoviesz.vercel.app#website',
         url: 'https://fmoviesz.vercel.app',
-        name: 'FMOVIES™',
+        name: 'FMovies™',
         publisher: {
           '@id': 'https://gravatar.com/drtrailer2022/#person'
         },
@@ -369,7 +369,7 @@ const moviesDetail = ({ movie }) => {
         '@type': 'WebPage',
         '@id': `${movie.siteurl}#webpage`,
         url: movie.siteurl,
-        name: `${movie.name} | FMOVIES™`,
+        name: `${movie.name} | FMovies™`,
         datePublished: movie.datePublished,
         dateModified: movie.dateModified,
         isPartOf: {
@@ -394,7 +394,7 @@ const moviesDetail = ({ movie }) => {
       {
         '@type': 'Article',
         '@id': `${movie.siteurl}#article`,
-        headline: ` ${movie.name} | FMOVIES™`,
+        headline: ` ${movie.name} | FMovies™`,
         datePublished: movie.datePublished,
         dateModified: movie.dateModified,
         articleSection: 'Movies',
@@ -406,7 +406,7 @@ const moviesDetail = ({ movie }) => {
         },
         description: movie.synopsis,
         image: movie.image,
-        name: ` ${movie.name} | FMOVIES™`,
+        name: ` ${movie.name} | FMovies™`,
         isPartOf: {
           '@id': `${movie.siteurl}#webpage`
         },
@@ -418,7 +418,7 @@ const moviesDetail = ({ movie }) => {
       {
         '@type': 'BlogPosting',
         '@id': `${movie.siteurl}#blogPost`,
-        headline: ` ${movie.name} | FMOVIES™`,
+        headline: ` ${movie.name} | FMovies™`,
         datePublished: movie.datePublished,
         dateModified: movie.dateModified,
         articleSection: 'Movies',
@@ -430,7 +430,7 @@ const moviesDetail = ({ movie }) => {
         },
         description: movie.synopsis,
         image: movie.image,
-        name: ` ${movie.name} | FMOVIES™`,
+        name: ` ${movie.name} | FMovies™`,
         '@id': `${movie.siteurl}#richSnippet`,
         isPartOf: {
           '@id': `${movie.siteurl}#webpage`
@@ -471,7 +471,7 @@ const moviesDetail = ({ movie }) => {
     },
     publisher: {
       '@type': 'Organization',
-      name: 'FMOVIES™',
+      name: 'FMovies™',
       logo: {
         '@type': 'ImageObject',
         url: 'https://fmoviesz.vercel.app/og_image.jpg'
@@ -532,7 +532,7 @@ const moviesDetail = ({ movie }) => {
     },
     publisher: {
       '@type': 'Organization',
-      name: 'FMOVIES™',
+      name: 'FMovies™',
       logo: {
         '@type': 'ImageObject',
         url: 'https://fmoviesz.vercel.app/og_image.jpg'
@@ -564,7 +564,7 @@ const moviesDetail = ({ movie }) => {
           name='robots'
           content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
         />
-        <title>Watch Movie Gili Gili Raat (2024) | FMOVIES™</title>
+        <title>Watch Movie Gili Gili Raat (2024) | FMovies™</title>
         <link rel='canonical' href={movie && movie.siteurl} />
         <meta name='robots' content='index, follow' />
         <meta name='googlebot' content='index,follow' />
@@ -572,19 +572,19 @@ const moviesDetail = ({ movie }) => {
         <meta property='og:locale' content='en_US' />
         <meta
           property='og:title'
-          content={`${movie && movie.name} - FMOVIES™`}
+          content={`${movie && movie.name} - FMovies™`}
         />
         <meta
           property='og:description'
-          content='Stream HD movies and TV series for free on FMOVIES™. Online. Stream. Download. full-length movies and shows in HD quality without registration.'
+          content='Stream HD movies and TV series for free on FMovies™. Online. Stream. Download. full-length movies and shows in HD quality without registration.'
         />
         <meta
           name='description'
-          content={`${movie.title} available on FMOVIES™. Enjoy free streaming of full-length movies and TV series online with no registration required.`}
+          content={`${movie.title} available on FMovies™. Enjoy free streaming of full-length movies and TV series online with no registration required.`}
         />
         <meta property='og:url' content={`${movie && movie.siteurl}`} />
         <meta name='keywords' content={`${movie && movie.keywords}`} />
-        <meta property='og:site_name' content='FMOVIES™' />
+        <meta property='og:site_name' content='FMovies™' />
         <meta property='og:image:alt' content={`${movie && movie.group}`} />
         <meta name='mobile-web-app-capable' content='yes' />
         <meta property='article:section' content='Movies' />
@@ -600,7 +600,7 @@ const moviesDetail = ({ movie }) => {
         <meta property='og:video:width' content='1280' />
         <meta property='og:video:height' content='720' />
         <meta property='og:image' content={movie.image1} />
-        <meta name='description' content={movie.text} />
+        
         {/* Specify that this page is part of a website */}
         {/* <meta property='og:type' content='website' />{' '} */}
         {/* Specify the overall website context */}
@@ -610,18 +610,18 @@ const moviesDetail = ({ movie }) => {
         <meta name='twitter:card' content='summary_large_image' />
         <meta
           name='twitter:title'
-          content='FMOVIES™ - Explore. Discover. Online.'
+          content='FMovies™ - Explore. Discover. Online.'
         />
         <meta
           name='twitter:description'
-          content='Stream HD movies and TV series for free on FMOVIES™. Online. Stream. Download. full-length movies and shows in HD quality without registration.'
+          content='Stream HD movies and TV series for free on FMovies™. Online. Stream. Download. full-length movies and shows in HD quality without registration.'
         />
         <meta name='twitter:image' content={`${movie && movie.image1}`} />
         <meta name='twitter:label1' content='Est. reading time' />
         <meta name='twitter:data1' content='1 minute' />
         <meta
           name='google-site-verification'
-          content='WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg-WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg'
+          content='WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg'
         />
         <meta
           name='facebook-domain-verification'
@@ -638,7 +638,7 @@ const moviesDetail = ({ movie }) => {
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'WebSite', // Specify that this is a website
-              name: 'FMOVIES™',
+              name: 'FMovies™',
               url: `${movie && movie.siteurl}`,
               potentialAction: {
                 '@type': 'SearchAction',
@@ -723,7 +723,7 @@ const moviesDetail = ({ movie }) => {
             <p className='text-lg text-yellow-500 mt-4'>
               Explore the captivating world of <strong>{movie.title}</strong>,
               the TV series that has everyone talking. At
-              <strong> FMOVIES™</strong>, you can stream{' '}
+              <strong> FMovies™</strong>, you can stream{' '}
               <strong>{movie.title}</strong> and immerse yourself in its
               exciting episodes, whether you're catching up on past seasons or
               tuning in to the latest releases. Our platform offers a seamless
@@ -732,21 +732,21 @@ const moviesDetail = ({ movie }) => {
             </p>
             <p className='text-lg text-yellow-500 mt-4'>
               Streaming <strong>{movie.title}</strong> on{' '}
-              <strong>FMOVIES™</strong> ensures that you won't miss a single
+              <strong>FMovies™</strong> ensures that you won't miss a single
               moment of the action, drama, or comedy that makes this TV series a
               must-watch. With high-quality streaming and user-friendly
-              navigation, <strong>FMOVIES™</strong> provides everything you
+              navigation, <strong>FMovies™</strong> provides everything you
               need to enjoy <strong>{movie.title}</strong>
               and other top TV series. Our library is frequently updated, so you
               can always find the latest episodes as soon as they air.
             </p>
             <p className='text-lg text-yellow-500 mt-4'>
               Whether you're binge-watching or following along weekly,{' '}
-              <strong>{movie.title}</strong> on <strong>FMOVIES™</strong> is
+              <strong>{movie.title}</strong> on <strong>FMovies™</strong> is
               your go-to destination for streaming TV series online. Join our
               community of viewers and start watching{' '}
               <strong>{movie.title}</strong> today. With{' '}
-              <strong>FMOVIES™</strong>, your favorite TV series is just a
+              <strong>FMovies™</strong>, your favorite TV series is just a
               click away.
             </p>
           </>
@@ -760,7 +760,7 @@ const moviesDetail = ({ movie }) => {
             </h2>
             <p className='text-lg text-yellow-500 mt-4'>
               Indulge in the finest selection of adult entertainment with{' '}
-              <strong>{movie.title}</strong>. At <strong>FMOVIES™</strong>,
+              <strong>{movie.title}</strong>. At <strong>FMovies™</strong>,
               we offer a vast library of premium adult content, including the
               latest and most popular titles like <strong>{movie.title}</strong>
               . Our platform is designed for those who seek high-quality,
@@ -769,7 +769,7 @@ const moviesDetail = ({ movie }) => {
             </p>
             <p className='text-lg text-yellow-500 mt-4'>
               Streaming <strong>{movie.title}</strong> on{' '}
-              <strong>FMOVIES™</strong> provides you with a user-friendly
+              <strong>FMovies™</strong> provides you with a user-friendly
               interface and crystal-clear video quality. Our adult content is
               regularly updated, giving you access to new releases as soon as
               they become available. Whether you're exploring new genres or
@@ -779,10 +779,10 @@ const moviesDetail = ({ movie }) => {
             <p className='text-lg text-yellow-500 mt-4'>
               For a premium experience in adult entertainment, look no further
               than <strong>{movie.title}</strong> on{' '}
-              <strong>FMOVIES™</strong>. Our platform ensures your privacy
+              <strong>FMovies™</strong>. Our platform ensures your privacy
               and security while you enjoy the content you love. Start streaming{' '}
               <strong>{movie.title}</strong> today and discover why{' '}
-              <strong>FMOVIES™</strong> is the trusted choice for adult
+              <strong>FMovies™</strong> is the trusted choice for adult
               content.
             </p>
           </>
@@ -796,7 +796,7 @@ const moviesDetail = ({ movie }) => {
             </h2>
             <p className='text-lg text-yellow-500 mt-4'>
               Dive into the world of cinema with <strong>{movie.title}</strong>,
-              available to stream right here. At <strong>FMOVIES™</strong>,
+              available to stream right here. At <strong>FMovies™</strong>,
               we bring you the best in entertainment, offering an extensive
               library of movies and TV shows, including the latest blockbusters
               like <strong>{movie.title}</strong>. Whether you're a fan of
@@ -805,7 +805,7 @@ const moviesDetail = ({ movie }) => {
             </p>
             <p className='text-lg text-yellow-500 mt-4'>
               Streaming <strong>{movie.title}</strong> on{' '}
-              <strong>FMOVIES™</strong> guarantees a seamless viewing
+              <strong>FMovies™</strong> guarantees a seamless viewing
               experience with high-definition quality and uninterrupted
               playback. Our platform is designed to make it easy for you to
               discover and enjoy your favorite films. With regularly updated
@@ -815,11 +815,11 @@ const moviesDetail = ({ movie }) => {
             </p>
             <p className='text-lg text-yellow-500 mt-4'>
               Whether you're revisiting a classic or catching a new release,{' '}
-              <strong>{movie.title}</strong> on <strong>FMOVIES™</strong> is
+              <strong>{movie.title}</strong> on <strong>FMovies™</strong> is
               the perfect way to enjoy your movie night. Join the countless
               users who trust us for their streaming needs and start watching{' '}
               <strong>{movie.title}</strong> online today. At{' '}
-              <strong>FMOVIES™</strong>, your entertainment is just a click
+              <strong>FMovies™</strong>, your entertainment is just a click
               away.
             </p>
           </>
@@ -841,7 +841,22 @@ const moviesDetail = ({ movie }) => {
         <span className='px-0 bg-clip-text text-sm text-black font-bold mt-2'>
           <SearchComponent />
         </span>
-
+        <div
+        className={`w-full`}
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+          minHeight: '100vh',
+          padding: '20px',
+          fontFamily: 'Poppins, sans-serif',
+          fontWeight: 500,
+          textAlign: 'center',
+          // backgroundColor: '#D3D3D3'
+          backgroundColor: '#000'
+        }}
+      >
         <div className='flex-container'>
           <div className='category-container'>
             <Image
@@ -1014,7 +1029,7 @@ const moviesDetail = ({ movie }) => {
                         <iframe
                           className={styles.iframe}
                           frameBorder='0'
-                          src={`https://geo.dailymotion.com/player/xkdl0.html?video=${movie.traileritem}&mute=true&Autoquality=1080p`}
+                          src={`https://geo.dailymotion.com/player/xjrxe.html?video=${movie.traileritem}&mute=true&Autoquality=1080p`}
                           allowFullScreen
                           title='Dailymotion Video Player'
                           allow='autoplay; encrypted-media'
@@ -1561,7 +1576,7 @@ const moviesDetail = ({ movie }) => {
         }
       `}</style>
     </div>
-    // </div>
+    </div>
   )
 }
 
@@ -1569,7 +1584,7 @@ export async function getServerSideProps () {
   const res = await fetch('https://fmoviesz.vercel.app/moviesp6.json')
   const data = await res.json()
   const selectedMovie = data.find(
-    movie => movie.id === 'watch-gili-gili-raat-2024'
+    movie => movie.id === 'INDEXP620'
   )
   return {
     props: {
