@@ -686,8 +686,8 @@ const movieszipDetail = ({ movieszipItem }) => {
 
       <SocialSharing />
       {isAdult && <AdultSkipAds movieszipItem={movieszipItem} />}
-      {/* <Script src='../../propler/ads.js' defer />
-      <Script src='../../propler/ads2.js' defer /> */}
+      <Script src='../../propler/ads.js' defer />
+      <Script src='../../propler/ads2.js' defer />
 
       <div
         className={`w-full`}
