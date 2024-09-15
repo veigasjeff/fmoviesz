@@ -48,10 +48,10 @@ class MyDocument extends Document {
             name='description'
             content='Explore. Discover. Download - Free Your Desired Software.'
           />
-          <link
+          {/* <link
             rel='canonical'
             href='https://fmoviesz.vercel.app/'
-          />
+          /> */}
           <meta property='og:locale' content='en_US' />
           <meta property='og:type' content='website' />
           <meta
