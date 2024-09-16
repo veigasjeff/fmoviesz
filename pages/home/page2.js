@@ -45,10 +45,10 @@ const softwareSchema = JSON.stringify({
   '@context': 'https://schema.org',
   '@type': 'Article',
   '@id': 'https://fmoviesz.vercel.app/home/page2',
-  headline: 'Watch Movies Page 2 | FMovies ™',
+  headline: 'Watch Movies Page 2 | FMovies™',
   url: 'https://fmoviesz.vercel.app/home/page2',
   description:
-    'Stream HD movies and TV series for free on FMovies ™. Online. Stream. Download. full-length movies and shows in HD quality without registration.',
+    'Stream HD movies and TV series for free on FMovies™. Online. Stream. Download. full-length movies and shows in HD quality without registration.',
   image: 'https://fmoviesz.vercel.app/og_image.jpg',
   author: {
     '@type': 'Person',
@@ -130,7 +130,7 @@ const Page2 = ({ items }) => {
   return (
     <div className='w-full' style={{ backgroundColor: '#D3D3D3' }}>
       <Head>
-        <title> Watch Movies Page 2 | FMovies ™</title>
+        <title> Watch Movies Page 2 | FMovies™</title>
         <link rel='canonical' href='https://fmoviesz.vercel.app/home/page2' />
         <meta
           name='robots'
@@ -141,10 +141,10 @@ const Page2 = ({ items }) => {
         <meta name='revisit-after' content='1 days' />
         <meta property='og:locale' content='en_US' />
         <meta property='og:type' content='website' />
-        <meta property='og:title' content=' Watch Movies Page 2 | FMovies ™' />
+        <meta property='og:title' content=' Watch Movies Page 2 | FMovies™' />
         <meta
           property='og:description'
-          content='Stream HD movies and TV series for free on FMovies ™. Online. Stream. Download. full-length movies and shows in HD quality without registration.'
+          content='Stream HD movies and TV series for free on FMovies™. Online. Stream. Download. full-length movies and shows in HD quality without registration.'
         />
 
         <meta property='og:url' content='https://fmoviesz.vercel.app/home/page2' />

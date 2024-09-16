@@ -17,11 +17,11 @@ const uwatchfreeSchema = JSON.stringify([
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'AtoZ  - Explore. Discover. Download.',
-    url: 'https://atozmovies.vercel.app/',
-    image: ['https://atozmovies.vercel.app/favicon.ico'],
+    url: 'https://fmoviesz.vercel.app/',
+    image: ['https://fmoviesz.vercel.app/favicon.ico'],
     logo: {
       '@type': 'ImageObject',
-      url: 'https://atozmovies.vercel.app/logo.png',
+      url: 'https://fmoviesz.vercel.app/logo.png',
       width: 280,
       height: 80
     }
@@ -29,12 +29,12 @@ const uwatchfreeSchema = JSON.stringify([
   {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    url: 'https://atozmovies.vercel.app/',
+    url: 'https://fmoviesz.vercel.app/',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: 'https://atozmovies.vercel.app/search?q={search_term_string}'
+        urlTemplate: 'https://fmoviesz.vercel.app/search?q={search_term_string}'
       },
       'query-input': 'required name=search_term_string'
     }
@@ -44,12 +44,12 @@ const uwatchfreeSchema = JSON.stringify([
 const softwareSchema = JSON.stringify({
   '@context': 'https://schema.org',
   '@type': 'Article',
-  '@id': 'https://atozmovies.vercel.app/home/page1',
-  headline: 'Watch Movies Page 1 | AtoZ ™',
-  url: 'https://atozmovies.vercel.app/home/page1',
+  '@id': 'https://fmoviesz.vercel.app/home/page1',
+  headline: 'Watch Movies Page 1 | FMovies™',
+  url: 'https://fmoviesz.vercel.app/home/page1',
   description:
-    'Stream HD movies and TV series for free on AtoZ ™. Online. Stream. Download. full-length movies and shows in HD quality without registration.',
-  image: 'https://atozmovies.vercel.app/og_image.jpg',
+    'Stream HD movies and TV series for free on FMovies™. Online. Stream. Download. full-length movies and shows in HD quality without registration.',
+  image: 'https://fmoviesz.vercel.app/og_image.jpg',
   author: {
     '@type': 'Person',
     name: 'DrTrailer',
@@ -60,14 +60,14 @@ const softwareSchema = JSON.stringify({
     name: 'AtoZ  - Explore. Discover. Download.',
     logo: {
       '@type': 'ImageObject',
-      url: 'https://atozmovies.vercel.app/og_image.jpg'
+      url: 'https://fmoviesz.vercel.app/og_image.jpg'
     }
   },
   datePublished: '2024-06-02',
   dateModified: '2024-06-02',
   mainEntityOfPage: {
     '@type': 'WebPage',
-    '@id': 'https://atozmovies.vercel.app/home/pge1'
+    '@id': 'https://fmoviesz.vercel.app/home/pge1'
   },
   additionalProperty: {
     '@type': 'PropertyValue',
@@ -83,13 +83,13 @@ const breadcrumbSchema = JSON.stringify({
       '@type': 'ListItem',
       position: 1,
       name: 'Movies',
-      item: 'https://atozmovies.vercel.app/'
+      item: 'https://fmoviesz.vercel.app/'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Watch Movies Page 1',
-      item: 'https://atozmovies.vercel.app/home/page1'
+      item: 'https://fmoviesz.vercel.app/home/page1'
     }
   ]
 })
@@ -130,8 +130,8 @@ const Page1 = ({ items }) => {
   return (
     <div className='w-full' style={{ backgroundColor: '#D3D3D3' }}>
       <Head>
-        <title> Watch Movies pag 1 | AtoZ ™ </title>
-        <link rel='canonical' href='https://atozmovies.vercel.app/home/page1' />
+        <title> Watch Movies pag 1 | FMovies™ </title>
+        <link rel='canonical' href='https://fmoviesz.vercel.app/home/page1' />
         <meta
           name='robots'
           content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
@@ -141,13 +141,13 @@ const Page1 = ({ items }) => {
         <meta name='revisit-after' content='1 days' />
         <meta property='og:locale' content='en_US' />
         <meta property='og:type' content='website' />
-        <meta property='og:title' content=' Watch Movies pag 1 | AtoZ ™' />
+        <meta property='og:title' content=' Watch Movies pag 1 | FMovies™' />
         <meta
           property='og:description'
-      content='Stream HD movies and TV series for free on AtoZ ™. Online. Stream. Download. full-length movies and shows in HD quality without registration.'
+      content='Stream HD movies and TV series for free on FMovies™. Online. Stream. Download. full-length movies and shows in HD quality without registration.'
         />
 
-        <meta property='og:url' content='https://atozmovies.vercel.app/home/page1' />
+        <meta property='og:url' content='https://fmoviesz.vercel.app/home/page1' />
 
         <meta property='og:site_name' content='AtoZ ' />
         <meta property='og:type' content='article' />
@@ -165,7 +165,7 @@ const Page1 = ({ items }) => {
         />
         <meta
           property='og:image'
-           content='https://atozmovies.vercel.app/og_image.jpg'
+           content='https://fmoviesz.vercel.app/og_image.jpg'
         />
         <meta property='og:image:width' content='1280px' />
         <meta property='og:image:height' content='720px' />
@@ -573,7 +573,7 @@ const Page1 = ({ items }) => {
 
 export async function getStaticProps () {
   try {
-    const res = await fetch('https://atozmovies.vercel.app/moviesp6.json')
+    const res = await fetch('https://fmoviesz.vercel.app/moviesp6.json')
     const data = await res.json()
 
     return {
