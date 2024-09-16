@@ -225,7 +225,7 @@ const Page1 = ({ items }) => {
           marginBottom: '15px'
         }}
       >
-        FMovies Movies Section.
+        FMovies Tv Show Section.
       </h1>
       <div className='flex justify-center items-center my-4 gap-4'>
         <GoogleTranslate />
