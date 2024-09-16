@@ -217,29 +217,29 @@ const moviesDetail = ({ moviesp1Item }) => {
       {
         '@type': ['Person', 'Organization'],
         '@id': 'https://gravatar.com/drtrailer2022/#person',
-        name: 'Dr Trailer'
+        name: 'Dr Trailer',
       },
       {
         '@type': 'WebSite',
         '@id': 'https://fmoviesz.vercel.app#website',
         url: 'https://fmoviesz.vercel.app',
-        name: 'FMovies ',
+        name: 'FMovies™ - Online. Stream. Download.',
         publisher: {
-          '@id': 'https://gravatar.com/drtrailer2022/#person'
+          '@id': 'https://gravatar.com/drtrailer2022/#person',
         },
-        inLanguage: 'en-US'
+        inLanguage: 'en-US',
       },
       {
         '@type': 'WebPage',
         '@id': `${moviesp1Item.siteurl}#webpage`,
         url: moviesp1Item.siteurl,
-        name: `${moviesp1Item.name} | FMovies `,
+        name: `${moviesp1Item.name} | FMovies™`,
         datePublished: moviesp1Item.datePublished,
         dateModified: moviesp1Item.dateModified,
         isPartOf: {
-          '@id': 'https://fmoviesz.vercel.app#website'
+          '@id': 'https://fmoviesz.vercel.app#website',
         },
-        inLanguage: 'en-US'
+        inLanguage: 'en-US',
       },
       {
         '@type': 'Person',
@@ -248,64 +248,63 @@ const moviesDetail = ({ moviesp1Item }) => {
         url: 'https://gravatar.com/drtrailer2022/',
         image: {
           '@type': 'ImageObject',
-          '@id': 'https://gravatar.com/drtrailer2022',
+          '@id': 'https://gravatar.com/drtrailer2022#image',
           url: 'https://gravatar.com/drtrailer2022',
           caption: 'Dr Trailer',
-          inLanguage: 'en-US'
+          inLanguage: 'en-US',
         },
-        sameAs: ['https://fmoviesz.vercel.app']
+        sameAs: ['https://fmoviesz.vercel.app'],
       },
       {
         '@type': 'Article',
         '@id': `${moviesp1Item.siteurl}#article`,
-        headline: ` ${moviesp1Item.name} | FMovies `,
+        headline: `${moviesp1Item.name} | FMovies™`,
         datePublished: moviesp1Item.datePublished,
         dateModified: moviesp1Item.dateModified,
-        articleSection: 'moviesp1Items',
+        articleSection: 'Movies',
         author: {
-          '@id': 'https://gravatar.com/drtrailer2022/'
+          '@id': 'https://gravatar.com/drtrailer2022/',
         },
         publisher: {
-          '@id': 'https://gravatar.com/drtrailer2022/#person'
+          '@id': 'https://gravatar.com/drtrailer2022/#person',
         },
         description: moviesp1Item.synopsis,
         image: moviesp1Item.image,
-        name: ` ${moviesp1Item.name} | FMovies `,
+        name: `${moviesp1Item.name} | FMovies™`,
         isPartOf: {
-          '@id': `${moviesp1Item.siteurl}#webpage`
+          '@id': `${moviesp1Item.siteurl}#webpage`,
         },
         inLanguage: 'en-US',
         mainEntityOfPage: {
-          '@id': `${moviesp1Item.siteurl}#webpage`
-        }
+          '@id': `${moviesp1Item.siteurl}#webpage`,
+        },
       },
       {
         '@type': 'BlogPosting',
         '@id': `${moviesp1Item.siteurl}#blogPost`,
-        headline: ` ${moviesp1Item.name} | FMovies `,
+        headline: `${moviesp1Item.name} | FMovies™`,
         datePublished: moviesp1Item.datePublished,
         dateModified: moviesp1Item.dateModified,
-        articleSection: 'moviesp1Items',
+        articleSection: 'Movies',
         author: {
-          '@id': 'https://gravatar.com/drtrailer2022/'
+          '@id': 'https://gravatar.com/drtrailer2022/',
         },
         publisher: {
-          '@id': 'https://gravatar.com/drtrailer2022/#person'
+          '@id': 'https://gravatar.com/drtrailer2022/#person',
         },
         description: moviesp1Item.synopsis,
         image: moviesp1Item.image,
-        name: ` ${moviesp1Item.name} | FMovies `,
-        '@id': `${moviesp1Item.siteurl}#richSnippet`,
+        name: `${moviesp1Item.name} | FMovies™`,
         isPartOf: {
-          '@id': `${moviesp1Item.siteurl}#webpage`
+          '@id': `${moviesp1Item.siteurl}#webpage`,
         },
         inLanguage: 'en-US',
         mainEntityOfPage: {
-          '@id': `${moviesp1Item.siteurl}#webpage`
-        }
-      }
-    ]
-  })
+          '@id': `${moviesp1Item.siteurl}#webpage`,
+        },
+      },
+    ],
+  });
 
   const newsArticleSchema = {
     '@context': 'https://schema.org',
