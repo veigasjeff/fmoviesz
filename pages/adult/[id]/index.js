@@ -305,7 +305,7 @@ const moviesDetail = ({ moviesp1Item }) => {
       },
     ],
   });
-  
+
   const newsArticleSchema = {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
@@ -428,7 +428,7 @@ const moviesDetail = ({ moviesp1Item }) => {
         />
         <title>
           {' '}
-           {moviesp1Item && moviesp1Item.name} | FMovies ???
+           {moviesp1Item && moviesp1Item.name} | FMovies™
         </title>
         <link rel='canonical' href={moviesp1Item && moviesp1Item.siteurl} />
         <meta name='robots' content='index, follow' />
@@ -438,11 +438,11 @@ const moviesDetail = ({ moviesp1Item }) => {
         <meta property='og:type' content='website' />
         <meta
           property='og:title'
-          content={`${moviesp1Item && moviesp1Item.name} - FMovies ???`}
+          content={`${moviesp1Item && moviesp1Item.name} - FMovies™`}
         />
         <meta
           property='og:description'
-        content='Stream HD movies and TV series for free on FMovies ???. Online. Stream. Download. full-length movies and shows in HD quality without registration.'
+        content='Stream HD movies and TV series for free on FMovies™. Online. Stream. Download. full-length movies and shows in HD quality without registration.'
         />
 
         <meta

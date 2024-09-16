@@ -428,7 +428,7 @@ const moviesDetail = ({ moviesp1Item }) => {
         />
         <title>
           {' '}
-           {moviesp1Item && moviesp1Item.name} | FMovies ???
+           {moviesp1Item && moviesp1Item.name} | FMovies™
         </title>
         <link rel='canonical' href={moviesp1Item && moviesp1Item.siteurl} />
         <meta name='robots' content='index, follow' />
